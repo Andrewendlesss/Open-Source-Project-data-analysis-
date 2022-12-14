@@ -8,6 +8,8 @@ from numpy.random import permutation
 from scipy.stats import linregress
 import matplotlib.pyplot as plt
 
+#url = 'https://www.kaggle.com/datasets/thedevastator/the-ultimate-netflix-tv-shows-and-movies-dataset'
+#df = pd.read_html(url)
 data = 'Best Movies netflix.csv'
 df = pd.read_csv(data)
 df2 = df.head(30)
